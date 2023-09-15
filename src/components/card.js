@@ -4,7 +4,7 @@ import image from './rick and morty image.png'
 
 function Card({ cards }) {
     return (
-      <div className='grid grid-cols-4 gap-6 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:gap-2 max-lg:gap-6 max-sm:w-full'>
+      <div className='grid grid-cols-4 gap-6 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:gap-2 max-lg:gap-6 max-sm:w-full transition-all duration-1000'>
         {cards.map((card, index) => (
           <div
             key={index}
