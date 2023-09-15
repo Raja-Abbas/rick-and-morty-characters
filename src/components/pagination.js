@@ -62,7 +62,7 @@ import cardData from './data'
             } text-white px-4 py-2 rounded-full`}
             onClick={() => handleFilterChange('dead')}
           >
-            dead
+            Dead
           </button>
           <button
             className={`${
@@ -70,7 +70,7 @@ import cardData from './data'
             } text-white px-4 py-2 rounded-full`}
             onClick={() => handleFilterChange('alive')}
           >
-            alive
+            Alive
           </button>
           <button
             className={`${
