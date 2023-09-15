@@ -8,7 +8,7 @@ function Card({ cards }) {
         {cards.map((card, index) => (
           <div
             key={index}
-            className="hover:cursor-pointer hover:scale-[1.1] max-w-[300px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto"
+            className="mb-6 mt-4 hover:cursor-pointer hover:scale-[1.1] max-w-[300px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto"
           >
             <a href={card.image}>
               <img className="rounded-t-lg" src={card.image} alt={`Image of ${card.name}`} />
@@ -19,8 +19,8 @@ function Card({ cards }) {
                   Name: {card.name}
                 </h5>
               </a>
-              <div className='flex flex-row gap-3 items-center mb-2'>
-                <div
+              <div className='flex flex-row gap-3 items-center mb-2 text-white'>
+                Status: <div
                   className={`w-4 h-4 rounded-full ${
                     card.status === 'alive'
                       ? 'bg-green-600'

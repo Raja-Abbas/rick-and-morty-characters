@@ -86,7 +86,7 @@ const cardData = [
         {
           name: 'Amish Cyborg',
           image: '../images/img13.webp',
-          status: 'Died',
+          status: 'died',
           species: 'Alien',
           gender: 'Male',
         },
@@ -205,7 +205,7 @@ const cardData = [
           {
             name: 'Beebo',
             image: '../images/img30.webp',
-            status: 'Died',
+            status: 'died',
             species: 'Alien',
             gender: 'Male',
           },
