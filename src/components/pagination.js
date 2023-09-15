@@ -88,7 +88,7 @@ import cardData from './data'
         <Card cards={displayedCards} />
   
         <nav aria-label="Page navigation example">
-          <ul className="flex items-center -space-x-px h-10 text-base justify-center">
+          <ul className="flex items-center -space-x-px h-10 text-base justify-center mb-5">
             {Array.from({ length: totalPages }).map((_, page) => (
               <li key={page}>
                 <a
