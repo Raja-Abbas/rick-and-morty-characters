@@ -58,7 +58,7 @@ import cardData from './data'
           </button>
           <button
             className={`${
-              filter === 'dead' ? 'bg-red-500' : 'bg-red-800 hover:bg-red-600'
+              filter === 'Dead' ? 'bg-red-500' : 'bg-red-800 hover:bg-red-600'
             } text-white px-4 py-2 rounded-full`}
             onClick={() => handleFilterChange('dead')}
           >
