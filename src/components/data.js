@@ -470,21 +470,21 @@ const cardData = [
           }   ,
           {
             name: 'Cowboy Morty',
-            image: '../images/img69.webp',
-            status: 'alive',
-            species: 'Human',
-            gender: 'Male',
-          }   ,
-          {
-            name: 'Cowboy Rick',
             image: '../images/img70.webp',
             status: 'alive',
             species: 'Human',
             gender: 'Male',
           }   ,
           {
-            name: 'Crab Spider',
+            name: 'Cowboy Rick',
             image: '../images/img71.webp',
+            status: 'alive',
+            species: 'Human',
+            gender: 'Male',
+          }   ,
+          {
+            name: 'Crab Spider',
+            image: '../images/img72.webp',
             status: 'alive',
             species: 'Alien',
             gender: 'unknown',
@@ -492,7 +492,7 @@ const cardData = [
           ,
           {
             name: 'Creepy Little Girl',
-            image: '../images/img72.webp',
+            image: '../images/img73.webp',
             status: 'alive',
             species: 'Human',
             gender: 'Female',
