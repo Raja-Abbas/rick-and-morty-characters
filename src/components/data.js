@@ -86,7 +86,7 @@ const cardData = [
         {
           name: 'Amish Cyborg',
           image: '../images/img13.webp',
-          status: 'died',
+          status: 'alive',
           species: 'Alien',
           gender: 'Male',
         },
