@@ -492,7 +492,7 @@ const cardData = [
           ,
           {
             name: 'Creepy Little Girl',
-            image: '../images/img69.webp',
+            image: '../images/img70.webp',
             status: 'alive',
             species: 'Human',
             gender: 'Female',
