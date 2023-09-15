@@ -7,7 +7,7 @@ function Card({ cards }) {
         {cards.map((card, index) => (
           <div
             key={index}
-            className="max-w-[300px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto"
+            className="hover:scale-[1.1] max-w-[300px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto"
           >
             <a href={card.image}>
               <img className="rounded-t-lg" src={card.image} alt={`Image of ${card.name}`} />
