@@ -11,7 +11,7 @@ function Card({ cards }) {
             className="mb-6 mt-4 hover:cursor-pointer hover:scale-[1.1] max-w-[300px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto"
           >
             <a href={card.image}>
-              <img className="rounded-t-lg" src={card.image} alt={`Image of ${card.name}`} />
+              <img className="rounded-t-lg" src={card.image} alt={`Image of ${card.name}`}/>
             </a>
             <div className="p-5">
               <a href="#">
