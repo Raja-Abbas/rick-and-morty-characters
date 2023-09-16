@@ -47,7 +47,7 @@ import cardData from './data'
   
     return (
       <div>
-        <div className="mt-[100px] flex justify-center space-x-3 mb-4 max-sm:grid max-sm:grid-col-2 max-sm:gap-2">
+        <div className="mt-[100px] flex justify-center space-x-3 mb-4 max-sm:grid max-sm:grid-col-2 max-sm:gap-2 max-sm:space-x-0">
         <button
   className={`${
     filter === 'All' ? 'bg-blue-500' : 'bg-blue-800 hover:bg-blue-600'
