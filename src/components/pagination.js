@@ -48,9 +48,23 @@ import cardData from './data'
     return (
       <div>
         <div className="mt-[100px] flex justify-center space-x-3 mb-4 max-sm:grid max-sm:grid-col-2 max-sm:gap-2">
+        <button
+  className={`${
+    filter === 'All' ? 'bg-blue-500' : 'bg-blue-800 hover:bg-blue-600'
+  } text-white px-4 py-2 rounded-full`}
+  onClick={() => {
+    handleFilterChange('All');
+    if (filter !== 'All') {
+      // Reload the page only if the filter is changing to 'All'.
+      window.location.reload();
+    }
+  }}
+>
+Back
+</button>
           <button
             className={`${
-              filter === 'All' ? 'bg-gray-500' : 'bg-gray-800 hover:bg-gray-700'
+              filter === 'All' ? 'bg-gray-500' : 'bg-gray-800 hover:bg-gray-600'
             } text-white px-4 py-2 rounded-full`}
             onClick={() => handleFilterChange('All')}
           >
