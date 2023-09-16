@@ -110,7 +110,7 @@ Back
                   className={`flex items-center justify-center mt-10 mb-5 px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 ${
                     currentPage === page + 1
                       ? 'bg-gray-500 text-gray-800'
-                      : 'hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white'
+                      : 'hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white hover:h-11'
                   }`}
                   onClick={() => goToPage(page + 1)}
                 >
